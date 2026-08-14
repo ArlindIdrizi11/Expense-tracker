@@ -1,4 +1,3 @@
-// Visual metadata for each category — icon + accent color for chips and bars.
 export const CATEGORY_META = {
   Food: { icon: '🍔', color: '#f59e0b' },
   Transport: { icon: '🚌', color: '#3b82f6' },

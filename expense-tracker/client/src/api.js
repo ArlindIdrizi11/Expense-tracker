@@ -1,5 +1,3 @@
-// Thin API client. In dev, '/api' is proxied to the Express server (see
-// vite.config.js). In production, set VITE_API_URL to your API's base URL.
 const BASE = import.meta.env.VITE_API_URL || '/api'
 
 async function request(path, options) {
