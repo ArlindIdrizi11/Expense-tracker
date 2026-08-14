@@ -20,7 +20,7 @@ export default function App() {
       setSummary(sum)
       setError('')
     } catch (err) {
-      setError('Could not reach the API. Is the server running on port 4000?')
+      setError('Server not found')
     }
   }, [filter])
 
